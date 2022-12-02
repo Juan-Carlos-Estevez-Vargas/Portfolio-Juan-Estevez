@@ -18,26 +18,3 @@ h3 {
   font-size: 80px;
   color: #154360;
 }
-
-@media (max-width: 992px) {
-  .col-md-3 {
-    margin: 5px;
-  }
-}
-
-@media (max-width: 672px) {
-  .col-md-3 {
-    flex: 0 0 47.4%;
-    margin: 5px auto;
-  }
-  .row {
-    padding: 10px;
-  }
-}
-
-@media (max-width: 425px) {
-  .col-md-3 {
-    flex: 0 0 99.4%;
-    margin: 20px auto;
-  }
-}
