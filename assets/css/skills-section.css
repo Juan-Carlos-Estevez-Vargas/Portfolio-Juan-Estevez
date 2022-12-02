@@ -1,0 +1,43 @@
+h3 {
+  padding-left: 5px;
+}
+
+.col-md-2 {
+  background: rgba(255, 255, 255, 0.37);
+  flex: 0 0 23.55%;
+  margin: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  padding-top: 40px;
+}
+
+.fab {
+  font-size: 80px;
+  color: #154360;
+}
+
+@media (max-width: 992px) {
+  .col-md-3 {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 672px) {
+  .col-md-3 {
+    flex: 0 0 47.4%;
+    margin: 5px auto;
+  }
+  .row {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .col-md-3 {
+    flex: 0 0 99.4%;
+    margin: 20px auto;
+  }
+}
