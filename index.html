@@ -60,7 +60,21 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <div class="hero-section"></div>
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Juan Estevez</h1>
+        <p>
+          I'm
+          <span
+            class="typed"
+            data-typed-items="Tech Student, Fullstack Developer, Freelancer, Web Developer, BackEnd Developer, FrontEnd Developer"
+          ></span>
+        </p>
+      </div>
+    </section>
     <!-- End Hero -->
 
     <main id="main">
@@ -113,7 +127,6 @@
     <script>
       $(document).ready(function () {
         $(".header-section").load("./components/header-section.html");
-        $(".hero-section").load("./components/hero-section.html");
         $(".about-section").load("./components/about-section.html");
         $(".skills-section").load("./components/skills-section.html");
         $(".resume-section").load("./components/resume-section.html");
